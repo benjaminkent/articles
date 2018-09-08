@@ -37,7 +37,6 @@ article p {
 article {
   width: 250px;
   height: 350px;
-  border: 2px solid red;
   padding: 30px 50px;
 }
 
@@ -52,8 +51,12 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: stretch;
   align-items: baseline;
+}
+
+.all-main-content {
+  margin-bottom: 100px;
 }
 
 .intro-article {
