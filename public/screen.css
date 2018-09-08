@@ -34,6 +34,16 @@ article p {
   font-size: 0.8rem;
 }
 
+article {
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  background-color: rgb(235, 214, 136);
+}
+
 .read-more {
   text-transform: uppercase;
   font-size: 0.8rem;
