@@ -35,6 +35,10 @@ article p {
 }
 
 article {
+  width: 250px;
+  height: 350px;
+  border: 2px solid red;
+  padding: 30px 50px;
 }
 
 footer {
@@ -42,6 +46,19 @@ footer {
   justify-content: center;
   padding: 20px 0;
   background-color: rgb(235, 214, 136);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.intro-article {
+  width: 500px;
+  height: 350px;
 }
 
 .read-more {
