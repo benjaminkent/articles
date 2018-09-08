@@ -49,10 +49,7 @@ footer {
 
 main {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: stretch;
-  align-items: baseline;
 }
 
 .all-main-content {
@@ -60,7 +57,7 @@ main {
 }
 
 .intro-article {
-  width: 500px;
+  width: 600px;
   height: 350px;
 }
 
